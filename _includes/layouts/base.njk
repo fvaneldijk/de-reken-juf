@@ -1,23 +1,38 @@
 <!doctype html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
 
+
+
 	{% include "components/head.njk" %}
 
 	<body>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+        <div class="grid-container">
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+            <header class="header">
+                {% include "components/nav.njk" %}
+            </header>
 
-		{% include "components/footer.njk" %}
+            <main class="main">
+                {{ layoutContent | safe }}
+            </main>
+
+            <footer class="footer">
+                {% include "components/footer.njk" %}
+            </footer>
+
+        </div>
 
 	</body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93051339-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93051339-5');
+</script>
 
 </html>

@@ -19,17 +19,26 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background-color: var(--turkey);
+	background-color: #F3F7FE;
 }
 
 main {
 	max-width: 37.5em;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	color: #6067F1;
+}
+
+.content {
+	background-color: #FFFFFF;
+	padding: 24px;
+}
+
 p,
 pre,
 code {
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 a[href],

@@ -1,20 +1,13 @@
 ---
 layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
+title: Welkom bij de Rekenjuf!
+date: 2019-02-25T00:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
   - nav
 ---
-# Welcome
+Mijn naam is Lara Smeding. Ik ben woonachtig in Uithoorn en gediplomeerd basisschoolleerkracht. Al sinds het begin van mijn studie ben ik geïnteresseerd geweest in rekenen en de achterliggende didactiek. Dit leidde tot het succesvol volgen en afronden van een excellentietraject rekendidactiek aan de Hogeschool Utrecht. Na het behalen van mijn diploma, ben ik gaan werken op een school voor speciaal basisonderwijs. Hier heb ik veel ervaring opgedaan in het begeleiden van kinderen die problemen hadden rekenvaardigheden onder de knie te krijgen. Mijn ervaring heeft ertoe geleid dat ik eindelijk mijn droom kon verwezenlijken: bijles geven aan kinderen met rekenproblemen.
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+Heeft uw kind moeite met rekenen? Is dit op een bepaald onderdeel of rekenen in het algemeen? Vindt uw kind rekenen niet meer leuk, omdat het altijd te moeilijk is? Neem dan geheel vrijblijvend contact met mij op, zodat ik kan zorgen dat het rekenplezier en de rekenvaardigheid van uw kind zal toenemen! De Rekenjuf maakt rekenen weer leuk!
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
-
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on Github.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
